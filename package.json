@@ -1,5 +1,5 @@
 {
-  "name": "api-fastify",
+  "name": "api-daily-diet",
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
@@ -9,7 +9,6 @@
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src -e .ts",
     "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
-    "test": "vitest",
     "build": "tsup src"
   },
   "author": "",
